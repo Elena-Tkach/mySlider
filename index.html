@@ -14,71 +14,21 @@
   <section class="slider">
     <div class="container">
       <div class="slider-container js-slider-container">
-        <ul class="slider__list sliders js-sliders">
-          <li class="sliders__item js-slide ">
-            <div class="sliders__wrap">
-              <h4 class="title">1</h4>
-            </div>
-          </li>
-
-          <li class="sliders__item js-slide">
-            <div class="sliders__wrap">
-              <h4 class="title">2</h4>
-            </div>
-          </li>
-
-          <li class="sliders__item js-slide">
-            <div class="sliders__wrap">
-              <h4 class="title">3</h4>
-            </div>
-          </li>
-
-          <li class="sliders__item js-slide">
-            <div class="sliders__wrap">
-              <h4 class="title">4</h4>
-            </div>
-          </li>
-          <li class="sliders__item js-slide">
-            <h4 class="title">5</h4>
-          </li>
-
-          <li class="sliders__item js-slide ">
-            <div class="sliders__wrap">
-              <h4 class="title">6</h4>
-            </div>
-          </li>
-
-          <li class="sliders__item js-slide">
-            <div class="sliders__wrap">
-              <h4 class="title">7</h4>
-            </div>
-
-          </li>
-
-          <li class="sliders__item js-slide">
-            <div class="sliders__wrap">
-              <h4 class="title">8</h4>
-            </div>
-          </li>
-
-          <li class="sliders__item js-slide">
-            <div class="sliders__wrap">
-              <h4 class="title">9</h4>
-            </div>
-          </li>
-          <li class="sliders__item js-slide">
-            <div class="sliders__wrap">
-              <h4 class="title">10</h4>
-            </div>
-          </li>
-        </ul>
+        <ul class="slider__list sliders js-sliders"></ul>
       </div>
-      <div class="slider__btns">
+      <div class="slider__btns js-btns">
         <button class="slider__btn btn-prev js-btn-prev">Prev</button>
         <button class="slider__btn btn-next js-btn-next">Next</button>
       </div>
     </div>
   </section>
+
+  <template id="template-slide">
+    <li class="sliders__item js-slide">
+      <h4 class="title js-item-title"></h4>
+    </li>
+  </template>
+
 </body>
 
 </html>
