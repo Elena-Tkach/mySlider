@@ -1,6 +1,6 @@
 Slider
 
-- Tasks:
+Tasks:
 
 Write an infinite slider on js
 
